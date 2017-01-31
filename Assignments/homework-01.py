@@ -26,13 +26,14 @@ print(a)
 
 #B: Write a function that removes all instances of an element from a list.
 
-#def remove_all(el, lst):
-"""Removes all instances of el from lst. 
+"""def remove_all(el, lst):
+Removes all instances of el from lst. 
 Given: x = [3, 1, 2, 1, 5, 1, 1, 7]
 Usage: remove_all(1, x)
 Would result in: [3, 2, 5, 7]
-"""
-   #pass
+
+   pass"""
+
 x = [3, 1, 2, 1, 5, 1, 1, 7]
 print (x)
 
@@ -43,15 +44,16 @@ def remove_all():
 remove_all()
 print (x)
 
-#C: Write a function that takes in two values, x and y, and a list, and adds as many y's to the end of the list as there are x's. Do not use the built-in function count.
+"""
+C: Write a function that takes in two values, x and y, and a list, and adds as many y's to the end of the list as there are x's. Do not use the built-in function count.
 
-#def add_this_many(x, y, lst):
-""" Adds y to the end of lst the number of times x occurs in lst. 
+ def add_this_many(x, y, lst):
+ Adds y to the end of lst the number of times x occurs in lst. 
 Given: lst = [1, 2, 4, 2, 1]
 Usage: add_this_many(1, 5, lst)
 Results in: [1, 2, 4, 2, 1, 5, 5]
-"""
-   # pass
+
+   pass"""
 
 def add_this_many(x, y, lst):
     for i in lst:
@@ -83,15 +85,15 @@ print(a[::-1])
 # Prints: [3, 5, 2, 4, 1, 3]
 
 """E: Let's reverse Python lists in place, meaning mutate the passed in list itself, instead of returning a new list. We didn't discuss this in class directly, so feel free to use google. Why is the "in place" solution preferred?
-"""
 
-#def reverse(lst):
-""" Reverses lst in place. 
+def reverse(lst):
+Reverses lst in place. 
 Given: x = [3, 2, 4, 5, 1] 
 Usage: reverse(x)
 Results: [1, 5, 4, 2, 3]
-"""
-  #  pass
+
+   pass"""
+
 x = [3, 2, 4, 5, 1]
 
 def reverse(x):
